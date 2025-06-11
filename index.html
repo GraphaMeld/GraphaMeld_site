@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GraphaMeld</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Melding Graphics to Perfection</h1>
+    <p>We bring your ideas to life through thoughtful, purpose-driven designs.</p>
+    <div class="cta-buttons">
+      <button onclick="scrollToSection('contact')">Get a Free Quote</button>
+      <button onclick="scrollToSection('portfolio')">View Portfolio</button>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>Logo Design:</strong> Custom logos that tell your brand’s story.</li>
+      <li><strong>Posters & Flyers:</strong> Striking print and digital visuals that stand out.</li>
+      <li><strong>Social Media Graphics:</strong> Scroll-stopping visuals for all platforms.</li>
+      <li><strong>Custom Visuals:</strong> Event branding, packaging, and more.</li>
+    </ul>
+    <div class="cta-buttons">
+      <button onclick="scrollToSection('contact')">Let's Design Something Great →</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p><strong>Who We Are:</strong> At GraphaMeld, we help bring your ideas to light with thoughtful and attractive designs. Every project is crafted with creativity, purpose, and precision. We meld imagination with impact.</p>
+    <p><strong>Mission:</strong> To transform ideas into visually compelling designs that spark attention and connect with audiences. Every brand deserves design that reflects its story and purpose — perfectly melded for impact.</p>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <div class="project-card">Logo Project 1</div>
+      <div class="project-card">Poster Design</div>
+      <div class="project-card">Social Media Campaign</div>
+      <div class="project-card">Custom Visuals</div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <h2>Client Love</h2>
+    <blockquote>
+      “GraphaMeld took my idea and turned it into a visual masterpiece.”<br>
+      <cite>— Angela T., Boutique Owner</cite>
+    </blockquote>
+    <blockquote>
+      “Professional, fast, and stunning design work every time.”<br>
+      <cite>— David K., Event Organizer</cite>
+    </blockquote>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Let's Build Something Bold Together</h2>
+    <form onsubmit="event.preventDefault(); alert('Thanks for your message!');">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Project Type" required>
+      <textarea placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send Your Request →</button>
+    </form>
+    <div class="direct-contact">
+      <p>Email: hello@graphameld.com</p>
+      <p>Phone: +123 456 7890</p>
+      <p>2nd Phone: +234 703 285 0972</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 GraphaMeld. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Behance</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">X</a>
+      <a href="#">Facebook</a>
+      <a href="#">Pinterest</a>
+      <a href="#">Tiktok</a>
+    </div>
+    <p>Made with purpose. Melded to perfection.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
